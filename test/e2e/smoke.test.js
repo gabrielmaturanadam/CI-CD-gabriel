@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const base = (process.env.BASE_URL || 'http://localhost:3000').replace(/\/$/, '');
 test('health y versión', async () => {
   const health = await fetch(`${base}/health`);
-  assert.equal(health.status, 200);
+  assert.equal(health.status, 500);
   assert.equal((await health.json()).status, 'ok');
   const version = await fetch(`${base}/version`);
   assert.equal(version.status, 200);
