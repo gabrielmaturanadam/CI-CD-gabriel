@@ -46,3 +46,7 @@ function createApp(repository) {
   return app;
 }
 module.exports = { createApp };
+
+const suma = (a, b) => {
+  return a + b;
+};
