@@ -46,4 +46,3 @@ function createApp(repository) {
   return app;
 }
 module.exports = { createApp };
-
