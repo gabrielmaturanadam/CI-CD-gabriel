@@ -46,5 +46,3 @@ function createApp(repository) {
   return app;
 }
 module.exports = { createApp };
-
-const variableInutil = 123;
