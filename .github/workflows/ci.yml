@@ -25,7 +25,7 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Lint
+      - name: Chequear Linting
         run: npm run lint
 
       - name: Comprobar formato
