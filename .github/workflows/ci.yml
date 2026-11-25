@@ -31,5 +31,5 @@ jobs:
       - name: Comprobar formato
         run: npm run format:check
 
-      - name: Tests unitarios
+      - name: Corre Tests unitarios
         run: npm run test:unit
